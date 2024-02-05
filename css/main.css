@@ -1,0 +1,279 @@
+@font-face {
+    font-family: 'cottage';
+    src: url('../fonts/DreamCottage-Regular.woff') format('woff'),
+         url('../fonts/DreamCottage-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}  
+
+@font-face {
+    font-family: 'sniglet';
+    src: url('../fonts/Sniglet-ExtraBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}   
+
+@font-face {
+    font-family: 'nunito';
+    src: url('../fonts/Nunito-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}   
+
+.container{
+    
+    
+    text-align: center;
+
+}
+
+.header-container{
+    font-family: 'sniglet';
+    padding-top: 20px;
+}
+
+.top-sticker {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.header{
+    font-size: xx-large;
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.title {
+    margin: 0;
+    font: "sniglet";
+    
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    background-color: pink
+}
+
+.sub-header {
+    margin-top: 0;
+    font-size: 30px;
+}
+
+
+.glitter-hearts {
+    transform: rotate(35deg);
+    position: absolute;
+    right: 0;
+    z-index: -10;
+    width: 150px;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+
+.glitter-hearts1 {
+    transform: rotate(-55deg);
+    position: absolute;
+    padding-top:8px;
+    left: 0;
+    z-index: -10;
+    width: 150px;
+    padding-left: 40px;
+    padding-top: 30px;
+    
+}
+
+.top-image {
+    width: 300px;
+    
+    border-radius: 25px;
+    margin-top: 10px;
+
+}
+
+
+
+.timeline {
+    display: flex;
+    padding-top: 15%;
+}
+
+.point {
+    width: 20px;
+    /* position: absolute;
+    top: 450px;
+    left: 30px; */
+    background-color: rgb(255, 0, 144);
+    border-radius: 50%;
+    position: absolute;
+    left: -10px;
+    
+}
+
+.timeline-content{
+    display: flex;
+    padding-top: 10%;
+    position: absolute;
+    
+}
+
+#rec-pet-cat {
+    margin-top: 175px;
+    margin-left: 15px ;
+    
+}
+
+#meowchat {
+    /* margin-top: -30px; */
+    margin-top: -40px;
+    left: 120px;
+}
+
+#giko {
+    margin-top: 115px;
+    left: 240px;
+}
+
+#forum-topic{
+    /* margin-top: 75px; */
+    margin-top: -40px;
+    left: 360px;
+}
+
+
+
+#cat-hates-you {
+    margin-top: 245px ;
+    left: 480px;
+}
+
+#infinite-cats {
+    margin-top: -40px;
+    left: 600px;
+}
+
+#caturday {
+    margin-top: 220px;
+    left: 720px;
+
+}
+
+#puppy-cat {
+    /* margin-top: 70px ; */
+    margin-top: -40px;
+    left: 840px;
+}
+
+#cheezburger {
+    margin-top: 110px;
+    left: 960px;
+}
+
+#censorship {
+    /* margin-top: 70px; */
+    margin-top: -40px;
+    left: 1080px;
+}
+
+#festival {
+    margin-top: 215px;
+    left: 1200px;
+}
+
+#museum {
+    margin-top: -40px;
+    /* margin-top: 170px; */
+    left: 1320px;
+}
+
+.pointInfo {
+    text-align: left;
+    width: 180px;
+    margin: 0;
+    font-family: "nunito";
+    font-size: 13px;
+   
+}
+
+.point-container{
+    position: absolute;
+    text-align: left;
+ 
+    
+}
+
+.date {
+    padding: 0;
+    margin: 0;
+}
+
+.inner-point{
+    border-color: black;
+    border-left: 2px dotted;
+    padding-left: 5px;
+    
+}
+
+.squiggle{
+    width: 50%;
+}
+
+#point1 {
+    padding-top: 120px
+}
+
+#point2 {
+    padding-bottom: 15px;
+    
+}
+
+#point3 {
+    padding-top: 125px;
+    
+    
+}
+
+#point4 {
+    padding-bottom: 140px
+}
+
+#point5 {
+    padding-top: 73px
+}
+
+#point6 {
+    padding-bottom: 230px
+}
+
+#point7 {
+    padding-top: 80px
+}
+
+#point8 {
+    padding-bottom: 110px
+}
+
+#point9 {
+    padding-top: 185px
+}
+
+#point10 {
+    padding-bottom: 110px
+}
+
+#point11{
+    padding-top: 98px
+}
+
+#point12{
+    padding-bottom: 230px
+}
+
+/* .straight-line{
+    background-color: red;
+    height: 10px;
+    margin-top: -360px;
+} */
