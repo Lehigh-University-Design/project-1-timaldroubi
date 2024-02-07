@@ -9,6 +9,7 @@
 
         <link rel="stylesheet" href="css/navigation.css">
         <script src="js/navigator.js"></script>
+        <script defer src="js/main.js"></script>
     
     </head>
 
@@ -58,33 +59,38 @@
                  , most importantly, home users. -->
             <div class="timeline-content">
 
-            
+                <img src="./images/earlyGroup.jpg" class="point-image" id="image1">
                 <div id="rec-pet-cat" class="point-container">
-
-                    <img src="./images/circle.png" class="point" >
+                   
+                    
+                    <img src="./images/circle.png" class="point" id="hoverable1" onmouseover="showImage('image1')" onmouseout="hideImage('image1')" >
+                    
                     <div class="inner-point" id="point1">
                         <h3 class="date">1992</h3>
-                        <p class="pointInfo">Earliest online forum for people to discuss things related to cats</p>
+                        <p class="pointInfo">Rec.pet.cats was the earliest online group for people to discuss things related to cats</p>
                     </div>
+                   
 
                 </div>
 
                 <!-- 1995 chat -->
+                <img src="./images/catForum.jpg" class="point-image" id="image2">
                 <div id="meowchat" class="point-container">
 
                     <div class="inner-point" id="point2">
                         <h3 class="date">1995</h3>
-                        <p class="pointInfo">Another early forum for discussing cat related things. 1990 - 2019 showed a rapid expansion of the internet primarily because of ISPs offering services to businesses and home users</p>
+                        <p class="pointInfo">Meowchat became another early forum for discussing cat related things. 1990 - 2019 showed a rapid expansion of the internet primarily because of ISPs offering services to businesses and home users</p>
                     </div>
-                    <img src="./images/circle.png" class="point" >
+                    <img src="./images/circle.png" class="point" onmouseover="showImage('image2')" onmouseout="hideImage('image2')">
 
 
                 </div>
 
                 <!-- 1998 -->
+                <img src="./images/giko.webp" class="point-image" id="image3">
                 <div id="giko" class="point-container">
 
-                    <img src="./images/circle.png" class="point" >
+                    <img src="./images/circle.png" class="point" onmouseover="showImage('image3')" onmouseout="hideImage('image3')" >
                     <div class="inner-point" id="point3">
                         <h3 class="date">1998</h3>
                         <p class="pointInfo">The first image of a cat on the internet was an ASCII art of a cat named Giko in a japanese forum called 2chan. Giko's catch phrase was "leave me alone"</p>
@@ -93,6 +99,9 @@
 
                 </div>
 
+                <img src="./images/catsCommonTopic.jpg" class="point-image" id="image4">
+
+
                 <div id="forum-topic" class="point-container">
 
                     <div class="inner-point" id="point4">
@@ -100,13 +109,14 @@
                         <p class="pointInfo">Cats become a common topic among online hubs such as 4chan and metafilter</p>
                         
                     </div>
-                    <img src="./images/circle.png" class="point" >
+                    <img src="./images/circle.png" class="point"  onmouseover="showImage('image4')" onmouseout="hideImage('image4')">
 
 
                 </div>
 
+                <img src="./images/myCatHatesYou.jpg" class="point-image" id="image5">
                 <div id="cat-hates-you" class="point-container" >
-                    <img src="./images/circle.png" class="point" >
+                    <img src="./images/circle.png" class="point"  onmouseover="showImage('image5')" onmouseout="hideImage('image5')">
                     <div class="inner-point" id="point5">
                         <h3 class="date">2000</h3>
                         <p class="pointInfo">Popular blog launches called "My Cat Hates You"</p>
@@ -115,21 +125,23 @@
 
                 </div>
 
+                <img src="./images/infiniteCat.jpg" class="point-image" id="image6">
                 <div id="infinite-cats" class="point-container">
 
                     <div class="inner-point" id="point6">
                         <h3 class="date">2004</h3>
-                        <p class="pointInfo">Another popular blog launches called the infinite cat project</p>
+                        <p class="pointInfo">Another popular blog launches called the infinite cat project dedicated to pictures of cats looking at other cats</p>
                       
                     </div>
-                    <img src="./images/circle.png" class="point" >
+                    <img src="./images/circle.png" class="point" onmouseover="showImage('image6')" onmouseout="hideImage('image6')" >
 
                 </div>
 
+                <img src="./images/cat.jpg" class="point-image" id="image7">
                 <div id="caturday" class="point-container" >
                     
 
-                    <img src="./images/circle.png" class="point" >
+                    <img src="./images/circle.png" class="point"  onmouseover="showImage('image7')" onmouseout="hideImage('image7')" >
                     <div class="inner-point" id="point7">
                         <h3 class="date">2006</h3>
                         <p class="pointInfo">LOLcats and caturday become very popular on the internet"</p>
@@ -138,6 +150,7 @@
 
                 </div>
 
+                <img src="./images/cat.jpg" class="point-image" id="image8">
                 <div id="puppy-cat" class="point-container" >
 
                     <div class="inner-point" id="point8">
@@ -145,21 +158,23 @@
                         <p class="pointInfo">The first viral cat video every on the internet called puppy vs cat</p>
                         
                     </div>
-                    <img src="./images/circle.png" class="point" >
+                    <img src="./images/circle.png" class="point"  onmouseover="showImage('image8')" onmouseout="hideImage('image8')">
 
                 </div>
 
+                <img src="./images/cheezeburger.avif" class="point-image" id="image9">
                 <div id="cheezburger" class="point-container">
 
-                    <img src="./images/circle.png" class="point" >
+                    <img src="./images/circle.png" class="point" onmouseover="showImage('image9')" onmouseout="hideImage('image9')" >
                     <div class="inner-point" id="point9">
-                        <h3 class="date">200?</h3>
+                        <h3 class="date">2007</h3>
                         <p class="pointInfo">LOLcats releases popular website called "I can haz cheezeburger"</p>
                       
                     </div>
 
                 </div>
 
+                <img src="./images/censored.jpg" class="point-image" id="image10">
                 <div id="censorship" class="point-container">
 
                     <div class="inner-point" id="point10">
@@ -167,13 +182,14 @@
                         <p class="pointInfo">The internet decides to ban all posts and photos related to cats for 24 hours</p>
                         
                     </div>
-                    <img src="./images/circle.png" class="point" >
+                    <img src="./images/circle.png" class="point" onmouseover="showImage('image10')" onmouseout="hideImage('image10')" >
 
                 </div>
 
+                <img src="./images/videoAwards.jpg" class="point-image" id="image11">
                 <div id="festival" class="point-container">
 
-                    <img src="./images/circle.png" class="point" >
+                    <img src="./images/circle.png" class="point" onmouseover="showImage('image11')" onmouseout="hideImage('image11')" >
                     <div class="inner-point" id="point11">      
                         <h3 class="date">2013</h3>
                         <p class="pointInfo">Internet cat video awards started being held yearly</p>
@@ -183,14 +199,15 @@
 
                 </div>
 
+                <img src="./images/catExhibit.jpg" class="point-image" id="image12">
                 <div id="museum" class="point-container">
 
                    <div class="inner-point" id="point12">
                         <h3 class="date">2015</h3>
-                        <p class="pointInfo">Museum exhibit displayed called "how cats took over the internet" at the ?? musuem</p>
+                        <p class="pointInfo">Museum exhibit displayed called "How cats Took Over the Internet" at the Musuem of Moving Image</p>
                         
                     </div>
-                    <img src="./images/circle.png" class="point" >
+                    <img src="./images/circle.png" class="point" onmouseover="showImage('image12')" onmouseout="hideImage('image12')" >
 
                 </div>
             
@@ -207,6 +224,14 @@
         </div>
 
         <div class="straight-line">
+        
+
+        <!-- Sticker accents -->
+        <img src="./images/text-bubble-star-shape-abstract-with-pink-color-png.png" class="sticker">
+        <img src="./images/text-bubble-circle-shape-abstract-with-pink-color-png.webp" class="sticker1">
+        <img src="./images/text-bubble-shape-abstract-with-pink-color-png.webp" class="sticker2">
+        <img src="./images/text-bubble-star-shape-abstract-with-pink-color-png.png" class="sticker3">
+        <img src="./images/text-bubble-shape-abstract-with-pink-color-png.webp" class="sticker4">
 
         </div>
         <footer>
@@ -223,7 +248,7 @@
                 </nav>
             <div class="navbar-padding"></div>
         </footer>
-    
+        
     </body>
 
 </html>

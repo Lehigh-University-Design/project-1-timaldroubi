@@ -106,10 +106,11 @@
     /* position: absolute;
     top: 450px;
     left: 30px; */
-    background-color: rgb(255, 0, 144);
+    background-color: #ff14b4;
     border-radius: 50%;
     position: absolute;
     left: -10px;
+   
     
 }
 
@@ -245,7 +246,7 @@
 }
 
 #point6 {
-    padding-bottom: 230px
+    padding-bottom: 210px
 }
 
 #point7 {
@@ -269,7 +270,7 @@
 }
 
 #point12{
-    padding-bottom: 230px
+    padding-bottom: 210px
 }
 
 /* .straight-line{
@@ -277,3 +278,126 @@
     height: 10px;
     margin-top: -360px;
 } */
+
+.point-image{
+    width: 300px;
+   display: none;
+   position: absolute;
+   z-index: 10;
+
+    
+}
+
+.point-container .point:hover{
+ 
+    width: 30px;
+}
+
+.sticker{
+    position: absolute;
+    left: 40%;
+    top: 18%;
+    z-index: -3;
+    width: 80px;
+}
+
+.sticker1{
+    position: absolute;
+    right: 1%;
+    top: 47%;
+    z-index: -3;
+    width: 270px;
+    opacity: .8;
+}
+
+.sticker2{
+    position: absolute;
+    left: 27%;
+    top: -4%;
+    z-index: -3;
+    width: 200px;
+    transform: rotate(40deg);
+}
+
+.sticker3{
+    position: absolute;
+    right: 22%;
+    top: 70%;
+    z-index: -3;
+    width: 60px;
+    
+    transform: rotate(-30deg) scaleX(-1);
+    
+}
+
+.sticker4 {
+    position: absolute;
+    left: -8%;
+    top: 35%;
+    z-index: -3;
+    width: 350px;
+    transform: scaleX(-1);
+}
+
+#image1 {
+ top: 50px;
+ left: 10px;
+}
+
+#image2 {
+    top: 340px;
+    left: 100px;
+}
+
+#image3 {
+    top: 50px;
+    left: 200px;
+}
+
+#image4 {
+    top: 200px;
+    left: 380px;
+}
+
+#image5 {
+    top: 100px;
+    left: 400px;
+    width: 250px;
+}
+
+#image6 {
+    top: 220px;
+    left: 500px;
+    width: 220px;
+}
+
+#image7 {
+    top: 100px;
+    left: 600px;
+}
+
+#image8 {
+    top: 350px;
+    left: 700px;
+}
+
+#image9 {
+    top: 50px;
+    left: 800px;
+}
+
+#image10 {
+    top: 350px;
+    left: 900px;
+}
+
+#image11 {
+    top: 150px;
+    left: 1000px;
+}
+
+#image12 {
+    top: 230px;
+    left: 1250px;
+    width: 240px;
+}
